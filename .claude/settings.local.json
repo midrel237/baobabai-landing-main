@@ -1,0 +1,20 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm run *)",
+      "Read(//d/Users/Raouf/.claude/projects/D--BaobabOps-landing/**)",
+      "Read(//d/Users/Raouf/.claude/projects/D--BaobabOps-landing/memory/**)",
+      "WebFetch(domain:api.anthropic.com)",
+      "Bash(cp \"C:\\\\Users\\\\Raouf\\\\.claude\\\\projects\\\\D--BaobabOps-landing\\\\33a8f47d-84ef-4999-b3ab-497832153a1a\\\\tool-results\\\\webfetch-1777706393101-zjrxrf.bin\" /tmp/design.gz)",
+      "Bash(gunzip -c /tmp/design.gz)",
+      "Read(//tmp/**)",
+      "Bash(mkdir -p design_extracted)",
+      "Bash(tar -xzf design.gz -C design_extracted)",
+      "PowerShell(Remove-Item *)",
+      "Bash(npx tsc *)",
+      "Bash(npx next *)",
+      "Read(//c/Users/Raouf/AppData/Local/Temp/claude/D--BaobabOps-landing/33a8f47d-84ef-4999-b3ab-497832153a1a/tasks/**)",
+      "PowerShell(Stop-Process *)"
+    ]
+  }
+}
